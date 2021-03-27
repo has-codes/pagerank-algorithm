@@ -102,14 +102,3 @@ edges = {(0, 2),(1, 1),(1, 2),(2, 0),(2, 2),(2, 3),(3, 3),(3, 4),(4, 6),(5, 5),(
 # Function calls
 print("Random Walk -", randomwalk(edges, 0.1, 10))
 print("Page Rank -", pagerank(edges, 0.1, 100))
-
-# Q3
-# They are both approximating the steady-state probability distribution of the random surfer model
-# There does seem to a very slight difference between them tho (possibly due to rounding?)
-# Page rank converges much faster than random walk
-
-# Q4
-# Yes, it is negatively affected when number of out-links are increased
-# Uncommenting line 100 adds more outlinks form node 1
-# Node 1 pagerank score before 0.34
-# Node 1 pagerank score with more outlinks is 0.17
