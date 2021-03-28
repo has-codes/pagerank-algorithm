@@ -96,8 +96,6 @@ def pagerank(edges, a, iters):
 
 # Webpages edges
 edges = {(0, 2),(1, 1),(1, 2),(2, 0),(2, 2),(2, 3),(3, 3),(3, 4),(4, 6),(5, 5),(5, 6),(6, 4),(6, 6)}
-# For Q4, add more outlinks from node 1
-#edges = {(0, 2),(1, 0),(1, 1),(1, 2),(1, 3),(1, 4),(1, 5),(1, 6),(2, 0),(2, 2),(2, 3),(3, 3),(3, 4),(4, 6),(5, 5),(5, 6),(6, 4),(6, 6)}
 
 # Function calls
 print("Random Walk -", randomwalk(edges, 0.1, 10))
